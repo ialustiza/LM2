@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos de encabezado y navegacion*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    font-size: 2.2em;
+    background-color: rgb(216, 111, 216);
+    height: 4em;
+}
+
+nav img {
+    height: 4em;
+    width: 8em;
+    align-items: flex-start;
+}
+
+nav ul{
+    flex-basis: 60%;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2.6em;
+}
+
+/* Estilos del main para receta y noticias */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.8em;
+    margin: 1.25em;
+}
+
+section {
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+section article{
+    display: inline-block;
+}
+
+section img {
+    width: 15.625em;
+    height: 12,5em;
+}
+
+#main-colum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#main-colum section{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#main-colum article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main-colum article img{
+    width: 4.2em;
+    height: 4.2em;
+}
+
+#main-colum img{
+    width: 25em;
+    height: 25em;
+}
+
+.mini-titulos{
+    font-size: 2em;
+    color:  rgb(216, 111, 216);
+    text-decoration: solid;
+    stroke-width: 0.2em;
+    width: 100%;
+}
+
+.imgleft{
+    float: left;
+}
+
+.imgrigth{
+    float: right;
+}
+
+.imgreceta{
+    height: 12.8em;
+    width: 40%;
+}
+
+.fin-float {
+	clear: both;
+}
+
+article button{
+	float: left;
+    border-radius: 0.25em;
+    border-color: greenyellow;
+    font-size: 0.9em;
+}
+
+/* Estilos del contenedor aside para las recetas y tecnicas */
+aside{
+	flex-basis: 50%;
+    margin: 1.25em;
+}
+
+aside img{
+	width: 15em;
+    height: 15em;
+}
+
+/* Estilos del footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(212, 212, 212, 0.808);
+    width: 100%;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.8em;
+}
